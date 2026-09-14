@@ -116,7 +116,7 @@ def init_state():
 def render_sidebar(statuses):
     with st.sidebar:
         st.markdown(
-            ui.brand("Weed Management", "TUM research prototype"),
+            ui.brand("SoyaBot", "TUM research prototype"),
             unsafe_allow_html=True,
         )
 
